@@ -14,7 +14,7 @@ I couldn't find one. So I created one by myself. That's all, I think...
 ### Examples
 
 ```commit
-[fix:👌:readme] a bit - wrong links
+[fix#readme] a bit - wrong links
 
 README.md had some bad links. Now it hasn't.
 
@@ -29,7 +29,7 @@ Link to "foo/bark/e.md" was misspeled as "foo/bar/e.md"
 All the commits must look like this:
 
 ```commit
-[type:emoji:scope] weight - title
+[type#scope] weight - title
 
 (optional) *Short description of the commit*
 
