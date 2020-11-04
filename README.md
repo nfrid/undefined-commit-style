@@ -44,3 +44,4 @@ All the commits must look like this:
 - [ ] Add some wholesome examples (1/?)
 - [ ] Add normal description
 - [ ] Describe in details each structure element undefined commit style
+- [ ] Develop some strict keyword dictionaries as examples
