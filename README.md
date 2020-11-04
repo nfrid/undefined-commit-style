@@ -8,7 +8,7 @@ That's how the perfect commits must look!!
 
 ### Motivation
 
-I wanted a good looking but useful and human-readable commit style.
+I wanted a useful but good looking and human-readable commit style.
 I couldn't find one. So I created one by myself. That's all, I think...
 
 ### Examples
