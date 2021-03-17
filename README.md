@@ -9,7 +9,8 @@ That's how the perfect commits must look!! (in my very important opinion)
 ### Motivation
 
 I wanted a useful but good looking and human-readable commit style.
-I couldn't find one. So I created one by myself. That's all, I think...
+I couldn't find one (as a truЪ spec). So I created one by myself. That's all,
+I think...
 
 ### Why best
 
@@ -25,7 +26,7 @@ to fucking McDonalds.
 ### Examples
 
 ```commit
-[fix@readme] wrong links
+fix@readme: wrong links
 
 README.md had some bad links. Now it hasn't.
 
@@ -36,15 +37,25 @@ Link to "foo/bark/e.md" was misspeled as "foo/bar/e.md"
 ```
 
 ```commit
-[feat@layouts/login] animations
+feat@layouts/login: animations
 
 Wholesome animations on login layout.
 ```
 
 ```commit
-[add@docs/build] gentoo
+?add@docs/build: gentoo
 
 Building instructions for those who use Gentoo (as if they don't know lol)
+```
+
+```commit
+feat: new shit
+```
+
+```commit
+!feat@config(big): new syntax
+
+!WARNING! READ README OR YOU WILL DIE
 ```
 
 ## Commit structure
@@ -52,7 +63,7 @@ Building instructions for those who use Gentoo (as if they don't know lol)
 All the commits should look like this:
 
 ```commit
-[type@scope] what
+*tag*type@scope(how): what
 
 (optional) *Short description of the commit*
 
@@ -60,6 +71,19 @@ All the commits should look like this:
 
 (optional) *Warnings*
 ```
+
+It's okay to exclude some elements of a commit's head when they are not necessary.
+Just make it look informative and clear enough at the same time.
+
+### Tag
+
+Tags can mark something. Importance of the commit for example. Here's sign spec
+I would use:
+
+- `!` is the importance tag aka this thingy will fuck you if you don't pay attention
+- `?` is the you-should-read-it-maybe-cuz-it-may-be-interesting tag
+- `$` is the shit tag aka I just made a little something here you don't really need to know
+- `=` is the git tag on stuff only for a SVC shit
 
 ### Type
 
@@ -74,6 +98,7 @@ It can be whatever you think it can. I prefer use these types:
 - `fix` for fixing some shit
 - `ref` for refactoring some shit
 - `clean` for cleaning some shit
+- `upd` for updating some shit
 - `fuck` when I can't actually tell what the fuck I am commiting
 
 ### Scope
@@ -81,6 +106,13 @@ It can be whatever you think it can. I prefer use these types:
 Scope is just where.
 
 It can have a hierarchical structure and should tell where does shit happen.
+
+### How
+
+It can be the size or any other characteristic. Just to be clear in huge..ness?
+of the commit.
+
+Can be any words or symbols. I don't like specs in that kind of stuff.
 
 ### What
 
@@ -133,4 +165,3 @@ Have a nice day and fuck you. 👽
 
 - More examples.
 - Regex filters. Maybe some shell scripts.
-- Snippets.
