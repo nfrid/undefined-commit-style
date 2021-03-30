@@ -151,7 +151,7 @@ Surely, you should use them only if you have something to tell to other devs.
 
 Well. It kinda have a GNU license.
 
-BUT. I actually ain't a mad man. It just a fucking text. A formal style.
+BUT. I actually ain't a mad man. It's just a fucking text. A formal style.
 You can do whatever you want, even tell that it is you who created this kind
 of shit. Nobody really care about it. About fucking obvious variant of a text
 we write as commit messages. Really.
