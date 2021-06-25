@@ -19,9 +19,9 @@ the stuff you shouldn't know. You can tell what is commit about without actually
 reading it.
 
 Another good thing is that you can filter and search exact types or scopes.
-Yes, by regex. If you can't use it or you think it isn't awesome to use it,
+Yes, by regex. If you can't use it or you think it's not awesome to use it,
 you're wrong. You shouldn't do any coding in your life in that case. Go work
-to fucking McDonalds.
+to McDonalds.
 
 ### Examples
 
@@ -91,21 +91,21 @@ Type is... the type of commit!
 
 It can be whatever you think it can. I prefer use these types:
 
-- `add` for adding some shit
-- `rm` for removing some shit
-- `feat` for adding some features to already existing shit
-- `mod` for modifying some shit but it isn't actually a feature
-- `fix` for fixing some shit
-- `ref` for refactoring some shit
-- `clean` for cleaning some shit
-- `upd` for updating some shit
-- `fuck` when I can't actually tell what the fuck I am commiting
+- `add` for adding some
+- `rm` for removing some
+- `feat` for adding some features to already existing
+- `mod` for modifying some but it isn't actually a feature
+- `fix` for fixing some
+- `ref` for refactoring some
+- `clean` for cleaning some
+- `upd` for updating some
+- `fuck` when I can't actually tell wtf am I commiting
 
 ### Scope
 
 Scope is just where.
 
-It can have a hierarchical structure and should tell where does shit happen.
+It can have a hierarchical structure and should tell where does that happen.
 
 ### How
 
@@ -151,15 +151,15 @@ Surely, you should use them only if you have something to tell to other devs.
 
 Well. It kinda have a GNU license.
 
-BUT. I actually ain't a mad man. It's just a fucking text. A formal style.
-You can do whatever you want, even tell that it is you who created this kind
-of shit. Nobody really care about it. About fucking obvious variant of a text
-we write as commit messages. Really.
+BUT. I ain't actually a mad man. It's just a text. A format. A convention.
+You can do whatever you want, even tell that you're the author. Nobody really
+cares. Nobody gives a shit about an obvious variant of a text we write as commit
+messages. Really, why should we?
 
-Why tf I don't just delete the license you ask? Well, cuz it looks kinda cool.
+If so, why tf I don't just delete the license you ask? Well, cuz it looks cool.
 That's it.
 
-Have a nice day and fuck you. 👽
+Have a nice day. 👽
 
 ## TODO
 
