@@ -9,19 +9,14 @@ That's how the perfect commits must look!! (in my very important opinion)
 ### Motivation
 
 I wanted a useful but good looking and human-readable commit style.
-I couldn't find one (as a truЪ spec). So I created one by myself. That's all,
-I think...
+I couldn't find one (as a truЪ spec). So I created one by myself. That's it.
 
 ### Why best
 
-Welp, cuz it's more readable for me and clear. You will not clog your head with
-the stuff you shouldn't know. You can tell what is commit about without actually
-reading it.
+Well, cuz it's more readable for me and clear. You will not clog your head with
+a stuff you don't care about.
 
-Another good thing is that you can filter and search exact types or scopes.
-Yes, by regex. If you can't use it or you think it's not awesome to use it,
-you're wrong. You shouldn't do any coding in your life in that case. Go work
-to McDonalds.
+Also you can filter and search exact types or scopes by regex, for example.
 
 ### Examples
 
@@ -116,48 +111,44 @@ Can be any words or symbols. I don't like specs in that kind of stuff.
 
 ### What
 
-A very short message of what is actually commiting.
+A very short message of what is actually being commited.
 
-It is more like keywords or tags than actual message. Main goal of its existence
-is to provide a minimal ability to tell what's this commit about. So it'll not
+It is more like keywords or tags than an actual message. Main goal of its existence
+is to provide a minimal ability to tell what this commit is about, so it doesn't
 clog your mind. Only important, keywords-like information.
 
 ### Short description
 
 Well, it is that one REAL commit message where you actually describe what happened.
 
-It should not be more than one sentence. No details, no specifics. Maybe a little
-jokes. :)
+It should not be more than one sentence. No details, no specifics.
 
 ### Detailed description
 
-That is where you write your novel. All the shit you wanna say. No restrictions.
+That is where you write your novel. All the stuff you wanna say. No restrictions.
 Pure freedom.
 
-Joking aside. It should be clear and detailed message only with things that matters.
-Even I wouldn't joking in this part. Well, maybe just a bit.
+Jokes aside. It should be clear and detailed message only with things that matter.
+Even I wouldn't joking in this part. Well, maybe just a little.
 
 ### Warnings
 
-!WARNING! That shit will blow up if you will try and build it to prod!!!
+!WARNING! That stuff will blow up if you will try and build it to prod!!!
 
 When there are some breaking changes it makes sense to make a note to others,
-isn't it? This section is needed exactly for that!
+doesn't it? This section is needed exactly for that!
 
 !BREAKING CHANGES! or !READMEFIRST!, you can make it to any warning you want.
 Surely, you should use them only if you have something to tell to other devs.
 
 ## License
 
-Well. It kinda have a GNU license.
+Well. It kinda has an MIT license.
 
 BUT. I ain't actually a mad man. It's just a text. A format. A convention.
 You can do whatever you want, even tell that you're the author. Nobody really
-cares. Nobody gives a shit about an obvious variant of a text we write as commit
-messages. Really, why should we?
-
-If so, why tf I don't just delete the license you ask? Well, cuz it looks cool.
-That's it.
+cares about an obvious variant of a text we write as commit messages.
+I would be glad if someone makes it popular, even if my name would be lost in history.
 
 Have a nice day. 👽
 
